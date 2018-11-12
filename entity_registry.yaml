@@ -1,0 +1,60 @@
+media_player.bedroom_tv:
+  name:
+  platform: cast
+  unique_id: 0c0cacdd-a5f7-aacb-0a35-91de784da45c
+media_player.living_room_speaker:
+  name:
+  platform: cast
+  unique_id: 03269dec-9043-01ea-46bc-7c9d30061327
+sensor.heating_power:
+  name:
+  platform: tado
+  unique_id: power 1
+sensor.heating_overlay:
+  name:
+  platform: tado
+  unique_id: overlay 1
+sensor.heating_temperature:
+  name:
+  platform: tado
+  unique_id: temperature 1
+sensor.heating_tado_mode:
+  name:
+  platform: tado
+  unique_id: tado mode 1
+sensor.heating_humidity:
+  name:
+  platform: tado
+  unique_id: humidity 1
+sensor.heating_heating:
+  name:
+  platform: tado
+  unique_id: heating 1
+sensor.heating_link:
+  name:
+  platform: tado
+  unique_id: link 1
+sensor.pieter__avalons_home_tado_bridge_status:
+  name:
+  platform: tado
+  unique_id: tado bridge status 144885
+sensor.br_wind_speed:
+  name:
+  platform: buienradar
+  unique_id: 52.3231004.972200windspeed
+sensor.br_humidity:
+  name:
+  platform: buienradar
+  unique_id: 52.3231004.972200humidity
+sensor.br_pressure:
+  name:
+  platform: buienradar
+  unique_id: 52.3231004.972200pressure
+sensor.br_temperature:
+  name:
+  platform: buienradar
+  unique_id: 52.3231004.972200temperature
+sensor.br_symbol:
+  name:
+  platform: buienradar
+  unique_id: 52.3231004.972200symbol

@@ -1,0 +1,52 @@
+default_view:
+  name: Main
+  view: yes
+  entities:
+    - group.people
+ 
+livingroom_view:
+  name: Huiskamer
+  view: yes
+  entities:
+    - group.livingroom_lights
+
+bedroom_view:
+  name: Slaapkamer
+  view: yes
+  entities:
+    - group.bedroom_lights
+
+study_view:
+  name: Werkkamer
+  view: yes
+  entities:
+    - group.studyroom_lights
+
+hallway-view:
+  name: Gang
+  view: yes
+  entities:
+    - camera.foscam_camera
+
+livingroom_lights:
+  name: Huiskamer verlichting
+  entities:
+    - switch.livingroom_light1
+    - switch.livingroom_light2
+
+bedroom_lights:
+  name: Slaapkamer verlichting
+  entities:
+    - switch.bedroom_light1
+    - switch.bedroom_light2
+
+studyroom_lights:
+  name: Werkkamer verlichting
+  entities:
+    - switch.studyroom_light1
+
+people:
+  name: Bewoners
+  entities:
+    - device_tracker.avalon_2
+    - device_tracker.pieter_bt

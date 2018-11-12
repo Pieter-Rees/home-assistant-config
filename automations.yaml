@@ -1,0 +1,42 @@
+- id: '1001'
+  alias: 'Away mode'
+  trigger:
+    platform: state
+    entity_id: device_tracker.redmi, device_tracker.redmi_note_4
+    to: 'not_home'
+  action:
+    service: homeassistant.turn_off
+    entity_id: group.all_switches
+
+- id: '1002'   
+  alias: 'Light when home and evening'
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-02:00:00"
+  condition:
+    condition: state
+    entity_id: group.people
+    state: home
+  action:
+    - service: homeassistant.turn_on
+      entity_id: group.livingroom_lights
+    - service: homeassistant.turn_on
+      entity_id: group.studyroom_lights
+
+- id: '1003'
+  alias: 'Light when coming home and evening'
+  trigger:
+    platform: state
+    entity_id: device_tracker.pieter_bt, device_tracker.avalon_2
+    from: 'not_home'
+    to: 'home'
+  condition:
+    condition: sun
+    after: sunset
+    after_offset: "-02:00:00"
+  action:
+    - service: homeassistant.turn_on
+      entity_id: group.livingroom_lights
+    - service: homeassistant.turn_on
+      entity_id: group.studyroom_lights

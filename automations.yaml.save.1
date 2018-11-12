@@ -1,0 +1,23 @@
+- id: '1001'
+  alias: 'Away mode'
+  trigger:
+    platform: state
+    entity_id: group.all_devices
+    to: 'not_home'
+  action:
+    service: homeassistant.turn_off
+    entity_id: group.all_switches
+
+- id: '1002'
+  alias: 'Light when dark'
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-00:45:00"
+  condition:
+    condition: state
+    entity_id: 
+    state: home
+  action:
+    service: homeassistant.turn_on
+    entity_id: group.living_room_lights

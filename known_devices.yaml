@@ -1,0 +1,32 @@
+
+avalon:
+  hide_if_away: false
+  icon:
+  mac: '477159'
+  name: Avalon
+  picture:
+  track: false
+
+pieter:
+  hide_if_away: false
+  icon:
+  mac: '473315'
+  name: Pieter
+  picture:
+  track: true
+
+avalon_2:
+  hide_if_away: false
+  icon:
+  mac: BT_38:E6:0A:38:54:C2
+  name: Avalon
+  picture:
+  track: true
+
+pieter_bt:
+  hide_if_away: false
+  icon:
+  mac: BT_20:A6:0C:25:11:2A
+  name: Pieter BT
+  picture:
+  track: true

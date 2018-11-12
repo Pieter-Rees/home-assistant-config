@@ -1,0 +1,12 @@
+home-assistant_v3.db
+home-assistant_v2.db
+..gitignore.swp
+.HA_VERSION
+.config.yaml.swp
+.uuid
+secrets.yaml
+groups.yaml.save
+automations.yaml.save
+home-assistant.log
+/deps
+/tts
