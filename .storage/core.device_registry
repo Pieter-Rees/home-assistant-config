@@ -1,0 +1,44 @@
+{
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "d6fe1e3620cd4b3bbbfef55cad704228"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "e83c5b42c6db4a2385935ece0a8b4e29",
+                "identifiers": [
+                    [
+                        "cast",
+                        "0c0cacdda5f7aacb0a3591de784da45c"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Slaapkamer",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "d6fe1e3620cd4b3bbbfef55cad704228"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "a7dfc0bb53434c7cbb8823c2e00dcfbb",
+                "identifiers": [
+                    [
+                        "cast",
+                        "03269dec904301ea46bc7c9d30061327"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Huiskamer",
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

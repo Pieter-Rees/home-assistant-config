@@ -1,0 +1,93 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "pieter"
+                },
+                "id": "7dc8e58b6a7a47e391f41ae203d030f5",
+                "user_id": "8698cf8a2b174500bb67f4fdca5199e6"
+            }
+        ],
+        "groups": [
+            {
+                "id": "a387f177dd254256bcef8d1ca159f582",
+                "name": "All Access"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.2.5:8123/",
+                "client_name": null,
+                "created_at": "2018-11-24T19:14:29.887868+00:00",
+                "id": "6fabb6cad9f04783963735639d8d4d8f",
+                "jwt_key": "77b21c7c80f1d36eebf6553a97045c137b36e19b8407210fc45f9623f6a0aa5e15caa6b213f0260fd901a60849339039901e7908d60907341a62a6c51011aeb2",
+                "last_used_at": "2018-11-24T19:14:29.888148+00:00",
+                "last_used_ip": "192.168.2.174",
+                "token": "1a05e60d2f8012eb268067ea231f5fbaf2f89aef66af1faaf0dfccb9d98680cd81f530e168fca277c636e566f7bfd9a3cf065568bbf7ca5808d2a9d14dd75cc4",
+                "token_type": "normal",
+                "user_id": "8698cf8a2b174500bb67f4fdca5199e6"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://pieterrees.duckdns.org/",
+                "client_name": null,
+                "created_at": "2018-11-24T19:26:49.919446+00:00",
+                "id": "0faab33b81984452952ae2318f5f7b0b",
+                "jwt_key": "38034b163cd3f8411ba0dbbfba5b2e498b24a805c95a27567c0e365990d12efc3680ae5affd8fc6cf6b6e42fd60af9ca65148ce350f515f393f3cb6044b156da",
+                "last_used_at": "2018-11-24T19:26:49.919746+00:00",
+                "last_used_ip": "192.168.2.1",
+                "token": "8ac193185520a954f7fa4efb84308018557b85b9385213c425b42717edd9e2970821ca13c65be9b7012afce80cb684214f9e2d2b61b2715986bbf0fcb37da175",
+                "token_type": "normal",
+                "user_id": "8698cf8a2b174500bb67f4fdca5199e6"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.2.5:8123/",
+                "client_name": null,
+                "created_at": "2018-11-24T15:13:49.242430+00:00",
+                "id": "05bd2d4aba3c4550a5a0a352cb98790d",
+                "jwt_key": "4693909c4094703e6cf0a7027217e540ae003e90706b63e5d18a5b061fda30ac333e173e12e14a235ceacbd7fe66d4f3eccf26003f88061d80181f1728947213",
+                "last_used_at": "2018-11-24T19:14:02.158660+00:00",
+                "last_used_ip": "192.168.2.135",
+                "token": "6d4f1875621922bc6da7f864a2b36aa76be1d77c508653355eb76c18cd00e4f7b6b25e6507e2097f5888c5c451a6436811f98179f7941e50ee8748ad8012162a",
+                "token_type": "normal",
+                "user_id": "8698cf8a2b174500bb67f4fdca5199e6"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://pieterrees.duckdns.org/",
+                "client_name": null,
+                "created_at": "2018-11-24T19:25:53.489329+00:00",
+                "id": "9b69625c9b4c47b5bd0035b0871990c7",
+                "jwt_key": "6051c4b8ccc6133750d04c0f85f9198e47a1f93e744b2e538616b64f6d692a3e0aeac7b37a15970745e607f43ec144433c6e8991394b86c77d77feabbfc9dff4",
+                "last_used_at": "2018-11-24T19:25:53.489611+00:00",
+                "last_used_ip": "192.168.2.1",
+                "token": "bc0ce56254f21f69bff4f519f0c9b95aafecdb659a8be6ebd4b34ac2e32ccde6801ca30313cf2c38b610395b5f3ad8565bbab02489f9670398eb2d1331a9e79c",
+                "token_type": "normal",
+                "user_id": "8698cf8a2b174500bb67f4fdca5199e6"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "a387f177dd254256bcef8d1ca159f582"
+                ],
+                "id": "8698cf8a2b174500bb67f4fdca5199e6",
+                "is_active": true,
+                "is_owner": true,
+                "name": "Pieter",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

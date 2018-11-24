@@ -1,0 +1,143 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": "d6fe1e3620cd4b3bbbfef55cad704228",
+                "device_id": "e83c5b42c6db4a2385935ece0a8b4e29",
+                "disabled_by": null,
+                "entity_id": "media_player.bedroom_tv",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "0c0cacdd-a5f7-aacb-0a35-91de784da45c"
+            },
+            {
+                "config_entry_id": "d6fe1e3620cd4b3bbbfef55cad704228",
+                "device_id": "a7dfc0bb53434c7cbb8823c2e00dcfbb",
+                "disabled_by": null,
+                "entity_id": "media_player.living_room_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "03269dec-9043-01ea-46bc-7c9d30061327"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.heating_power",
+                "name": null,
+                "platform": "tado",
+                "unique_id": "power 1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.heating_overlay",
+                "name": null,
+                "platform": "tado",
+                "unique_id": "overlay 1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.heating_temperature",
+                "name": null,
+                "platform": "tado",
+                "unique_id": "temperature 1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.heating_tado_mode",
+                "name": null,
+                "platform": "tado",
+                "unique_id": "tado mode 1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.heating_humidity",
+                "name": null,
+                "platform": "tado",
+                "unique_id": "humidity 1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.heating_heating",
+                "name": null,
+                "platform": "tado",
+                "unique_id": "heating 1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.heating_link",
+                "name": null,
+                "platform": "tado",
+                "unique_id": "link 1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pieter__avalons_home_tado_bridge_status",
+                "name": null,
+                "platform": "tado",
+                "unique_id": "tado bridge status 144885"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.br_wind_speed",
+                "name": null,
+                "platform": "buienradar",
+                "unique_id": "52.3231004.972200windspeed"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.br_humidity",
+                "name": null,
+                "platform": "buienradar",
+                "unique_id": "52.3231004.972200humidity"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.br_pressure",
+                "name": null,
+                "platform": "buienradar",
+                "unique_id": "52.3231004.972200pressure"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.br_temperature",
+                "name": null,
+                "platform": "buienradar",
+                "unique_id": "52.3231004.972200temperature"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.br_symbol",
+                "name": null,
+                "platform": "buienradar",
+                "unique_id": "52.3231004.972200symbol"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}
